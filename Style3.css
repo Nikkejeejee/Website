@@ -26,17 +26,17 @@
 }
 
 body {
-    background: url("bg5.jpg") no-repeat;
+    background: url("bg5.webp") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
+    color: #ffffff;
 }
-
 
 #logo {
     height: 150px;
-    filter: drop-shadow(0 0 4px #c4c931);
+    filter: drop-shadow(0 0 4px #904F41);
 }
 
 header {
@@ -73,14 +73,14 @@ header nav ul li a {
     text-decoration: none;
     font-size: 19px;
     display: inline-block;
-    color: #e895b1;
+    color: #904F41;
     font-weight: 800;
     transition: 0.3s;
 }
 
 header nav ul li a:hover {
     font-size: 22px;
-    color: white;
+    color: #e895b1;
 }
 header nav ul li a:after{
     content: "";
@@ -93,6 +93,7 @@ header nav ul li a:after{
     border-radius: 50px;
     transition: .3s;
 }
+
 header nav ul li a:hover:after {
     width: 100%;
 }
@@ -102,23 +103,26 @@ header nav ul li a:hover:after {
     text-align: center;
     margin-left: 350px;
     margin-bottom: 100px;
-
 }
+
 h1 {
     font-family: TAN-ENIGMA, serif;
     margin-bottom: 50px;
-    color: #FAD0CF;
+    color: #5251AB;
     font-size: 45px;
-    filter: drop-shadow(2px 2px 0 #5c367c);
+    filter: drop-shadow(5px 5px 3px white);
 }
-.container p{
+
+.container p {
     font-family: "Open Sans", serif;
     font-size: 18px;
-    color: #4E82B0FF;
+    color: #645251;
     margin-bottom: -2%;
 }
+
 .contact-box {
-    background: #cfe6ff;
+    background: #B04E5A;
+    color: #ffffff; 
     display: flex;
 }
 
@@ -126,27 +130,29 @@ h1 {
     flex-basis: 35%;
     padding: 40px 70px;
 }
-.contact-left h3{
+
+.contact-left h2{
     font-family: LemonMilk, serif;
-    color: #4E82B0FF;
+    color: #ffffff;
     margin-bottom: 20px;
     text-align: center;
 }
+
 .contact-left img{
-    height: 300px;
     align-items: center;
 }
+
 .contact-right {
     flex-basis: 65%;
     padding: 50px;
-    background: #f4ebe9;
-    color: #4e82b0;
+    background: #3C7AB0;
+    color: white; 
 }
 
 .contact-right h3 {
     font-family: LemonMilk, serif;
     font-weight: 600;
-    margin-bottom: 30px;
+    text-align: center;
 }
 
 tr td:first-child {
@@ -158,17 +164,20 @@ tr td {
     font-family: "Open Sans", serif;
     padding-top: 20px;
 }
+
 .contact-right p{
     padding-top: 5%;
     padding-bottom: 2%;
 }
+
 footer {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     background-color: #f5f6d4;
-    color: #757739;
+    color: #5C5E2D;
     text-align: center;
     padding: 10px;
 }
+
